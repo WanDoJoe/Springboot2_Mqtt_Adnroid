@@ -1,0 +1,15 @@
+# MQTT Config
+  mqtt:
+    host: tcp://127.0.0.1:1883
+    clientinid: mqttideapub1
+    clientoutid: mqttMainOutPub
+#    dissun/topic
+    topic: topic/push
+    qoslevel: 0
+    #MQTT 认证
+    username:  mqtttest
+    password: mqtt
+    # 10s
+    timeout: 10000
+    #20s
+    keepalive: 20
